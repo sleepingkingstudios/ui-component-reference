@@ -1,0 +1,11 @@
+<li>
+  <a href="{{ item.url }}">{{ item.label | safe }}</a>
+
+  {% if 'children' in item %}
+  <ul class="pl-5">
+    {% for child in item.children %}
+    {{ render_template("page/navigation_item.html", item=child) }}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</li>

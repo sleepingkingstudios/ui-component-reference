@@ -1,0 +1,11 @@
+<nav>
+  <ul class="flex flex-col overflow-hidden">
+    {% for item in navigation %}
+    {{ render_template("page/navigation_item.html", item=item) }}
+    {% endfor %}
+  </ul>
+
+  <ul class="flex flex-col overflow-hidden mt-5">
+    <li><a href="{{ url_for('frameworks') }}">Frameworks</a></li>
+  </ul>
+</nav>
