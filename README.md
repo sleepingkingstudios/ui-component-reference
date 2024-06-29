@@ -13,7 +13,7 @@ A [Flask](https://flask.palletsprojects.com/en/3.0.x/) tool for evaluating and c
 2.  Install the application:
 
     ```bash
-    pip install -e .
+    pip install -e '.[test]'
     ```
 
 3.  Run the application:
