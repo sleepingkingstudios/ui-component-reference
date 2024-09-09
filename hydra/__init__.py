@@ -37,4 +37,8 @@ def create_app(injected_config=None):
     def frameworks():
         return render_page('frameworks.md')
 
+    @app.route('/colors')
+    def colors():
+        return render_page('colors.md')
+
     return app

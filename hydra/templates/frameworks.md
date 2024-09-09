@@ -34,7 +34,7 @@ UIkit is a lightweight and modular front-end framework for developing fast and p
 
 ### Tailwind Typography
 
-**Link:** [https://github.com/tailwindlabs/tailwindcss-typography](#https://github.com/tailwindlabs/tailwindcss-typography)<br />
+**Link:** [https://github.com/tailwindlabs/tailwindcss-typography](https://github.com/tailwindlabs/tailwindcss-typography)<br />
 **Version:** 0.5.13
 
 The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.
